@@ -1,6 +1,3 @@
-<?php
-require_once('./api.php');
-?>
 <!DOCTYPE html>
 <html lang="jp">
 <head>
@@ -11,7 +8,7 @@ require_once('./api.php');
 </head>
 <body>
   <p>
-    <?php echo $response; ?>
+  <?php require_once('./list.tpl'); ?>
   </p>
 </body>
 </html>
