@@ -7,8 +7,8 @@
   <title>Document</title>
 </head>
 <body>
-  <p>
-  <?php require_once('./list.tpl'); ?>
-  </p>
+  <div>
+    <?php require_once('./list.tpl'); ?>
+  </div>
 </body>
 </html>
