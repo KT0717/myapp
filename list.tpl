@@ -1,5 +1,3 @@
-<?php require_once('./api.php'); ?>
-
 <?php foreach ( $posts as  $content_item ) { ?>
   <?php $t = new DateTime($content_item->date); ?>
   <?php $t->setTimezone(new DateTimeZone('Asia/Tokyo')); ?>

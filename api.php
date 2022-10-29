@@ -1,5 +1,5 @@
 <?php
-require_once('./api-key.php');
+$apiKey = 'db9d7f88d4584e75b31c50bf396f8ab38843';
 $endpoint = 'endpoint_test';
 $url = "https://myapp01.microcms.io/api/v1/" . $endpoint;
 $headers = array(
