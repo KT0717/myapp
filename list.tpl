@@ -2,7 +2,13 @@
   <?php $t = new DateTime($content_item->date); ?>
   <?php $t->setTimezone(new DateTimeZone('Asia/Tokyo')); ?>
   <dt>
+    <i class="bi bi-calendar"></i>
     <time><?php echo $t->format('y/m/d'); ?></time>
-    <span class="info"><?php echo $content_item->title; ?></span>
+    <?php if($newIconOn < $t): ?>
+    <span class="icon-new">NEW</span>
+    <?php endif; ?>
   </dt>
+  <dd class="bold mt-1 pb-1 border-bottom">
+    <?php echo $content_item->title; ?>
+  </dd>
 <?php } ?>
