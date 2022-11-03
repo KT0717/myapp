@@ -1,6 +1,6 @@
 <?php
-require('/app/functions.php');
-include('/app/_parts/_header.php');
+require('../app/functions.php');
+include('../app/_parts/_header.php');
 ?>
   <!-- html start -->
   <div class="container">
