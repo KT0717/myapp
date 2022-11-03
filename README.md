@@ -12,6 +12,3 @@ http://myapp.x0.com/
 
 #### ローカル
 http://localhost:8080/
-
-#### APIキー埋め込み後に管理対象外とする
-git update-index --skip-worktree api-key.php
