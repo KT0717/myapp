@@ -18,6 +18,6 @@ $newIconOn->setTimezone(new DateTimeZone('Asia/Tokyo'));
 $newIconOn->format('y/m/d');
 // var_dump($newIconOn);
 
-// $host = $_SERVER['HTTP_HOST'];
+$host = $_SERVER['HTTP_HOST'];
 // var_dump($host);
 
