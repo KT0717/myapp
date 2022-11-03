@@ -1,6 +1,6 @@
 <?php
-$apiKey = 'db9d7f88d4584e75b31c50bf396f8ab38843';
-$endpoint = 'endpoint_test';
+require('/app/apiKey.php');
+$endpoint = 'news';
 $url = "https://myapp01.microcms.io/api/v1/" . $endpoint;
 $headers = array(
   'X-MICROCMS-API-KEY:'.$apiKey
@@ -18,6 +18,6 @@ $newIconOn->setTimezone(new DateTimeZone('Asia/Tokyo'));
 $newIconOn->format('y/m/d');
 // var_dump($newIconOn);
 
-$host = $_SERVER['HTTP_HOST'];
+// $host = $_SERVER['HTTP_HOST'];
 // var_dump($host);
 
