@@ -19,7 +19,7 @@ body {
 }
 
 .card {
-  /* width: calc(33.3333% - 15px); */
+  width: 25%;
   margin-left: 15px;
 }
 
@@ -29,7 +29,7 @@ body {
 
 @media (max-width: 767.98px) {
   .card {
-    /* width: 100%; */
+    width: 100%;
     margin-left: 0;
     margin-top: 15px;
   }
