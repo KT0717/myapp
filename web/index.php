@@ -6,7 +6,7 @@ include('../app/_parts/_header.php');
   <div class="container">
     <div class="row">
       <div class="col mt-3">
-        <h2 class="fs-5 fw-bold mb-1 pb-1 border-bottom">お知らせ</h2>
+        <h2 class="fs-5 mb-1 pb-1 border-bottom">お知らせ</h2>
         <dl class="mt-3">
         <?php require_once('./_include/list.tpl'); ?>
         </dl>
@@ -14,10 +14,12 @@ include('../app/_parts/_header.php');
     </div>
     <div class="row">
       <div class="col mt-3">
-        <h2 class="fs-5 fw-bold mb-1 pb-1 border-bottom">ブログ</h2>
-        <dl class="mt-3">
-        <?php require_once('./_include/blog.tpl'); ?>
-        </dl>
+        <h2 class="fs-5 mb-1 pb-1 border-bottom">ブログ</h2>
+        <div class="mt-3">
+          <div class="card-list">
+            <?php require_once('./_include/blog.tpl'); ?>
+          </div>
+        </div>
       </div>
     </div>
   </div>
