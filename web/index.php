@@ -13,7 +13,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   exit;
 }
 $messages = file(FILENAME, FILE_IGNORE_NEW_LINES);
-include('../app/_parts/_header.php');
+include('../web/_parts/_header.php');
 ?>
 
 <!-- html start -->
@@ -58,4 +58,4 @@ include('../app/_parts/_header.php');
 <!-- html end -->
 
 <?php
-include('../app/_parts/_footer.php');
+include('../web/_parts/_footer.php');

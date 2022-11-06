@@ -1,6 +1,6 @@
 <?php
 require('../app/functions.php');
-include('../app/_parts/_header.php');
+include('../web/_parts/_header.php');
 ?>
 
 <!-- html start -->
@@ -9,4 +9,4 @@ include('../app/_parts/_header.php');
 <!-- html end -->
 
 <?php
-include('../app/_parts/_footer.php');
+include('../web/_parts/_footer.php');
