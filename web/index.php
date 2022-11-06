@@ -17,7 +17,7 @@ include('../app/_parts/_header.php');
 ?>
 
 <!-- html start -->
-<div class="container">
+<div class="container mt-4 mb-4">
   <div class="row">
     <div class="col mt-3">
       <h2 class="fs-5 mb-1 pb-1 border-bottom">お知らせ</h2>
