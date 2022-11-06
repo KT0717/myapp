@@ -9,7 +9,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   $fp = fopen(FILENAME, 'a');
   fwrite($fp, $message . "\n");
   fclose($fp);
-  header('Location: http://localhost:8080/result.php');
+  header('Location: ./result.php');
   exit;
 }
 $messages = file(FILENAME, FILE_IGNORE_NEW_LINES);
