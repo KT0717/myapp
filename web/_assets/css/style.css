@@ -38,3 +38,18 @@ body {
     margin-top: 0;
   }
 }
+
+.blog {
+  text-align: center;
+}
+
+.blog img {
+  width: 50%;
+}
+
+@media (max-width: 767.98px) {
+  .blog img {
+    width: 100%;
+  }
+  
+}
